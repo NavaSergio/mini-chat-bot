@@ -1,7 +1,7 @@
 import pymupdf
 import os
 # Directorio donde se encuentran los archivos PDF
-input_directory = "Fichas_Muestras"
+input_directory = "pdf/229-3_Secundaría"
 # Iterar sobre todos los archivos en el directorio
 for filename in os.listdir(input_directory):
     if filename.endswith(".pdf"):  # Verificar si el archivo es un PDF
